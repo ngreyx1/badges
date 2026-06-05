@@ -286,8 +286,8 @@
       "isEnabled": true,
       "name": "DTS-HD MA",
       "pattern": "(?i)^(?=.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
-      "tagColor": "#d6572d",
-      "tagStyle": "filled and bordered",
+      "tagColor": "#e77650",
+      "tagStyle": "filled",
       "textColor": "#0e0e0e",
       "type": "filter"
     },
