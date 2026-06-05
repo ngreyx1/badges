@@ -78,7 +78,7 @@
       "isEnabled": true,
       "name": "WebDL",
       "pattern": "(?i)\\b(?:web[-_. ]?dl|webdl)\\b",
-      "tagColor": "#6c757d",
+      "tagColor": "#717a82",
       "tagStyle": "filled",
       "textColor": "#FFBE01",
       "type": "filter"
