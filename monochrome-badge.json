@@ -92,7 +92,7 @@
       "name": "WebRip",
       "pattern": "(?i)\\bweb[-_. ]?rip\\b",
       "tagColor": "#939ba3",
-      "tagStyle": "filled and bordered",
+      "tagStyle": "filled",
       "textColor": "#FFBE01",
       "type": "filter"
     },
