@@ -1,4 +1,48 @@
 {
+  "groups": [
+    {
+      "borderColor": "#FF00FF37",
+      "color": "#27C04F",
+      "id": "gq",
+      "isExpanded": true,
+      "name": "Quality"
+    },
+    {
+      "borderColor": "#FF858283",
+      "color": "#FFBE01",
+      "id": "gr",
+      "isExpanded": true,
+      "name": "Resolution"
+    },
+    {
+      "borderColor": "#FF858283",
+      "color": "#FF6B6B",
+      "id": "gv",
+      "isExpanded": true,
+      "name": "Visual"
+    },
+    {
+      "borderColor": "#00000000",
+      "color": "#45B7D1",
+      "id": "ga",
+      "isExpanded": true,
+      "name": "Audio"
+    },
+    {
+      "borderColor": "#00000000",
+      "color": "#FFD700",
+      "id": "gc",
+      "isExpanded": true,
+      "name": "Channels"
+    },
+    {
+      "borderColor": "#00000000",
+      "color": "#4ECDC4",
+      "id": "gl",
+      "isExpanded": true,
+      "name": "Language"
+    }
+  ],
   "filters": [
     {
       "borderColor": "#212529",
@@ -42,13 +86,13 @@
     {
       "borderColor": "#212529",
       "groupId": "gq",
-      "id": "q-w",
+      "id": "q-w2",
       "imageURL": "https://raw.githubusercontent.com/ngreyx1/badges/refs/heads/main/images-white/mono-webrip.png",
       "isEnabled": true,
       "name": "WebRip",
       "pattern": "(?i)\\bweb[-_. ]?rip\\b",
-      "tagColor": "#adb5bd",
-      "tagStyle": "filled",
+      "tagColor": "#939ba3",
+      "tagStyle": "filled and bordered",
       "textColor": "#FFBE01",
       "type": "filter"
     },
@@ -62,7 +106,7 @@
       "tagColor": "#006494",
       "tagStyle": "filled",
       "textColor": "#FFBE01",
-      "type": "filter"
+      "type": "filter",
       "borderColor": "#003554"
     },
     {
@@ -75,7 +119,7 @@
       "tagColor": "#0582ca",
       "tagStyle": "filled",
       "textColor": "#FF9A3D",
-      "type": "filter"
+      "type": "filter",
       "borderColor": "#003554"
     },
     {
@@ -88,7 +132,7 @@
       "tagColor": "#00a6fb",
       "tagStyle": "filled",
       "textColor": "#FF9A3D",
-      "type": "filter"
+      "type": "filter",
       "borderColor": "#003554"
     },
     {
@@ -111,7 +155,7 @@
       "imageURL": "https://raw.githubusercontent.com/ngreyx1/badges/refs/heads/main/images-white/HDR10Plus.png",
       "isEnabled": true,
       "name": "HDR10+",
-      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*hdr[\\s._-]?10[\\s._-]?(?:\\\\+|plus|p))",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*hdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p))",
       "tagColor": "#a4133c",
       "tagStyle": "filled",
       "textColor": "#0e0e0e",
@@ -124,7 +168,7 @@
       "imageURL": "https://raw.githubusercontent.com/ngreyx1/badges/refs/heads/main/images-white/HDR10.png",
       "isEnabled": true,
       "name": "HDR10",
-      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*hdr[\\s._-]?10)(?!.*hdr[\\s._-]?10[\\s._-]?(?:\\\\+|plus|p))",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*hdr[\\s._-]?10)(?!.*hdr[\\s._-]?10[\\s._-]?(?:\\+|plus|p))",
       "tagColor": "#c9184a",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
@@ -137,7 +181,7 @@
       "imageURL": "https://raw.githubusercontent.com/ngreyx1/badges/refs/heads/main/images-white/HDR.png",
       "isEnabled": true,
       "name": "HDR",
-      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bHDR\\b)(?!.*bhdr[\\s._-]?10\\b)",
+      "pattern": "(?i)^(?!.*\\b(?:dv|dovi|dolby[\\s._-]?vision)\\b)(?=.*\\bHDR\\b)(?!.*hdr[\\s._-]?10\\b)",
       "tagColor": "#ff4d6d",
       "tagStyle": "filled",
       "textColor": "#FFFFFF",
@@ -166,7 +210,7 @@
       "tagColor": "#ffb3c1",
       "tagStyle": "filled",
       "textColor": "#FFBE01",
-      "type": "filter"
+      "type": "filter",
       "borderColor": "#590d22"
     },
     {
@@ -195,7 +239,7 @@
       "textColor": "#FFFFFF",
       "type": "filter"
     },
-     {
+    {
       "borderColor": "#cb4518",
       "groupId": "ga",
       "id": "a-th",
@@ -242,8 +286,8 @@
       "isEnabled": true,
       "name": "DTS-HD MA",
       "pattern": "(?i)^(?=.*\\bdts[-_. ]?(?:hd[-_. ]?)?ma\\b)(?!.*\\bdts[-_.: ]?x\\b)",
-      "tagColor": "#ee8562",
-      "tagStyle": "filled",
+      "tagColor": "#d6572d",
+      "tagStyle": "filled and bordered",
       "textColor": "#0e0e0e",
       "type": "filter"
     },
@@ -299,7 +343,6 @@
       "textColor": "#0e0e0e",
       "type": "filter"
     },
-  
     {
       "borderColor": "#1a1f0b",
       "groupId": "gc",
@@ -507,50 +550,6 @@
       "tagStyle": "bordered and bordered",
       "textColor": "#80FFFFFF",
       "type": "filter"
-    }
-  ],
-  "groups": [
-    {
-      "borderColor": "#FF00FF37",
-      "color": "#27C04F",
-      "id": "gq",
-      "isExpanded": true,
-      "name": "Quality"
-    },
-    {
-      "borderColor": "#FF858283",
-      "color": "#FFBE01",
-      "id": "gr",
-      "isExpanded": true,
-      "name": "Resolution"
-    },
-    {
-      "borderColor": "#FF858283",
-      "color": "#FF6B6B",
-      "id": "gv",
-      "isExpanded": true,
-      "name": "Visual"
-    },
-    {
-      "borderColor": "#00000000",
-      "color": "#45B7D1",
-      "id": "ga",
-      "isExpanded": true,
-      "name": "Audio"
-    },
-    {
-      "borderColor": "#00000000",
-      "color": "#FFD700",
-      "id": "gc",
-      "isExpanded": true,
-      "name": "Channels"
-    },
-    {
-      "borderColor": "#00000000",
-      "color": "#4ECDC4",
-      "id": "gl",
-      "isExpanded": true,
-      "name": "Language"
     }
   ]
 }
